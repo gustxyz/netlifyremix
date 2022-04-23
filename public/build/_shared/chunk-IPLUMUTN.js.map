@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/helpers/seo.ts"],
+  "sourcesContent": ["import type { MetaFunction } from \"remix\";\nimport type { ExtendLoaderData } from \"~/helpers/loader\";\n\n/**\n * Generates the <meta> tags for a route\n * @param args - Remix's `MetaFunction` arggs\n * @returns Object for `HtmlMetaDescriptor`\n */\nexport const generateMetaTags: MetaFunction = ({ data, parentsData }) => {\n  // console.log({ parentsData: JSON.stringify(parentsData) });\n  const { meta }: ExtendLoaderData<string, Record<string, any>> = data;\n  return {\n    title: [meta.title].filter((i) => i != null).join(\" \u00B7 \"),\n  };\n};\n"],
+  "mappings": ";;;;;AAAA;AAQO,IAAM,mBAAiC,CAAC,EAAE,MAAM,kBAAkB;AAEvE,QAAM,EAAE,SAAwD;AAChE,SAAO;AAAA,IACL,OAAO,CAAC,KAAK,OAAO,OAAO,CAAC,MAAM,KAAK,MAAM,KAAK;AAAA;AAAA;",
+  "names": []
+}

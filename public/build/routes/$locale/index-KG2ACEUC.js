@@ -1,0 +1,1 @@
+import{a as o}from"/build/_shared/chunk-VY4UPOPF.js";import{e as t,f as e}from"/build/_shared/chunk-AKSB5QXU.js";e();e();var a=o;function r(){return t.createElement("p",null,"Hello")}export{r as default,a as meta};
