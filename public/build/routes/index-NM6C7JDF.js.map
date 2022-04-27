@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/telos/Documents/GitHub/netlifyremix/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default, meta } from \"/Users/telos/Documents/GitHub/netlifyremix/app/routes/index.tsx\";", "import type { LoaderFunction, MetaFunction } from \"remix\";\n\n\nexport const meta: MetaFunction = generateMetaTags;\n\n\n\nexport default function Homepage() {\n  return <p>Hello</p>;\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAGO,IAAM,OAAqB;AAInB,oBAAoB;AACjC,SAAO,oCAAC,KAAD,MAAG;AAAA;",
+  "names": []
+}

@@ -1,9 +1,9 @@
 {
-  "version": "2b663b9d",
+  "version": "209367ab",
   "entry": {
-    "module": "/build/entry.client-ONRSXOKJ.js",
+    "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
-      "/build/_shared/chunk-GRFXDWEQ.js",
+      "/build/_shared/chunk-NTWTLK5P.js",
       "/build/_shared/chunk-E7VMOUYL.js"
     ]
   },
@@ -11,56 +11,22 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-ZOA4ZWCE.js",
-      "imports": [
-        "/build/_shared/chunk-M3MQPAQY.js"
-      ],
+      "module": "/build/root-BGNJHCEZ.js",
       "hasAction": false,
-      "hasLoader": true,
+      "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": true
     },
-    "routes/$locale/index": {
-      "id": "routes/$locale/index",
+    "routes/index": {
+      "id": "routes/index",
       "parentId": "root",
-      "path": ":locale",
       "index": true,
-      "module": "/build/routes/$locale/index-PGM4LAOK.js",
-      "imports": [
-        "/build/_shared/chunk-IPLUMUTN.js"
-      ],
+      "module": "/build/routes/index-OJZGBTAV.js",
       "hasAction": false,
-      "hasLoader": true,
-      "hasCatchBoundary": false,
-      "hasErrorBoundary": false
-    },
-    "routes/$locale/products/$product": {
-      "id": "routes/$locale/products/$product",
-      "parentId": "root",
-      "path": ":locale/products/:product",
-      "module": "/build/routes/$locale/products/$product-FOJBDC6V.js",
-      "imports": [
-        "/build/_shared/chunk-IPLUMUTN.js"
-      ],
-      "hasAction": false,
-      "hasLoader": true,
-      "hasCatchBoundary": false,
-      "hasErrorBoundary": false
-    },
-    "routes/$locale/products/index": {
-      "id": "routes/$locale/products/index",
-      "parentId": "root",
-      "path": ":locale/products",
-      "index": true,
-      "module": "/build/routes/$locale/products/index-GWLQPE6Q.js",
-      "imports": [
-        "/build/_shared/chunk-IPLUMUTN.js"
-      ],
-      "hasAction": false,
-      "hasLoader": true,
+      "hasLoader": false,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-2B663B9D.js"
+  "url": "/build/manifest-209367AB.js"
 }

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/telos/Documents/GitHub/netlifyremix/app/routes/$locale/index.tsx?browser", "../../../../app/routes/$locale/index.tsx"],
+  "sourcesContent": ["export { default, meta } from \"/Users/telos/Documents/GitHub/netlifyremix/app/routes/$locale/index.tsx\";", "import type { LoaderFunction, MetaFunction } from \"remix\";\nimport { generateMetaTags } from \"~/helpers/seo\";\nimport type { ExtendLoaderData } from \"~/helpers/loader\";\n\nexport const meta: MetaFunction = generateMetaTags;\ntype LoaderData = ExtendLoaderData<string, {}>;\n\nexport let loader: LoaderFunction = (): LoaderData => {\n  return {\n    i18n: {},\n    meta: { title: \"Pabio\" },\n  };\n};\n\nexport default function Homepage() {\n  return <p>Hello</p>;\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAIO,IAAM,OAAqB;AAUnB,oBAAoB;AACjC,SAAO,oCAAC,KAAD,MAAG;AAAA;",
+  "names": []
+}

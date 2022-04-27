@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/telos/Documents/GitHub/netlifyremix/app/routes/$locale/products/$product.tsx?browser", "../../../../../app/routes/$locale/products/$product.tsx"],
+  "sourcesContent": ["export { default, meta } from \"/Users/telos/Documents/GitHub/netlifyremix/app/routes/$locale/products/$product.tsx\";", "import { LoaderFunction, MetaFunction, useParams } from \"remix\";\nimport { useLoaderData } from \"remix\";\nimport { loadTranslations } from \"~/helpers/i18n\";\nimport { generateMetaTags } from \"~/helpers/seo\";\nimport type { ExtendLoaderData } from \"~/helpers/loader\";\n\nconst i18nKeys = [\"hello\"] as const;\ntype I18nKeys = typeof i18nKeys[number];\n\nexport const meta: MetaFunction = generateMetaTags;\ntype LoaderData = ExtendLoaderData<I18nKeys, {}>;\n\nexport let loader: LoaderFunction = (args): LoaderData => {\n  const i18n = loadTranslations<I18nKeys>(args.params.locale, i18nKeys);\n  return {\n    i18n,\n    meta: { title: args.params.product },\n  };\n};\n\nexport default function Index() {\n  const { i18n } = useLoaderData<LoaderData>();\n  const { product } = useParams();\n\n  return (\n    <div>\n      <h1>{i18n.hello}</h1>\n      <p>This is product {product}</p>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;;;ACAA;AASO,IAAM,OAAqB;AAWnB,iBAAiB;AAC9B,QAAM,EAAE,SAAS;AACjB,QAAM,EAAE,YAAY;AAEpB,SACE,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAK,KAAK,QACV,oCAAC,KAAD,MAAG,oBAAiB;AAAA;",
+  "names": []
+}

@@ -1,7 +1,6 @@
 import { renderToString } from "react-dom/server";
 import type { EntryContext } from "remix";
 import { createCookie, RemixServer } from "remix";
-import { getRecommendedLocale, locales } from "~/helpers/i18n";
 
 export default async function handleRequest(
   request: Request,
@@ -15,27 +14,6 @@ export default async function handleRequest(
     httpOnly: true,
     sameSite: "strict",
   });
-
-  if (
-    !Object.entries(locales)
-      .map(([countryCode, languages]) =>
-        Object.keys(languages).map(
-          (languageCode) => `${languageCode}-${countryCode}`
-        )
-      )
-      .flat()
-      .some((locale) => url.pathname.startsWith(`/${locale}/`))
-  ) {
-    const data = await cookie.parse(request.headers.get("Cookie"));
-    const locale = data ?? (await getRecommendedLocale(request));
-    return new Response(`/${locale}${url.pathname}`, {
-      status: 302,
-      headers: {
-        Location: `/${locale}${url.pathname}`,
-        "Set-Cookie": await cookie.serialize(locale),
-      },
-    });
-  }
 
   const markup = renderToString(
     <RemixServer context={remixContext} url={request.url} />
