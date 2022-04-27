@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/telos/Documents/GitHub/netlifyremix/app/routes/services/index.tsx?browser"],
+  "sourcesContent": ["export * from \"/Users/telos/Documents/GitHub/netlifyremix/app/routes/services/index.tsx\";"],
+  "mappings": ";;;;;AAAA;",
+  "names": []
+}

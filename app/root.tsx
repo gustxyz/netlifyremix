@@ -19,7 +19,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 
-import  Styles  from "./assets/styles/base.css"
 
 export const meta: MetaFunction = () => {
   return { title: "Alki Digital | Web Design" };
@@ -30,7 +29,6 @@ export const meta: MetaFunction = () => {
 const BaseTemplate: React.FC = ({ children }) => (
   <html lang="en">
     <head>
-      <link href={Styles} rel='stylesheet'/>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
       <Meta />
