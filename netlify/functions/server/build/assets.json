@@ -1,5 +1,5 @@
 {
-  "version": "209367ab",
+  "version": "74ad967b",
   "entry": {
     "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
@@ -17,6 +17,17 @@
       "hasCatchBoundary": false,
       "hasErrorBoundary": true
     },
+    "routes/about/index": {
+      "id": "routes/about/index",
+      "parentId": "root",
+      "path": "about",
+      "index": true,
+      "module": "/build/routes/about/index-AOSDW7K3.js",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasCatchBoundary": false,
+      "hasErrorBoundary": false
+    },
     "routes/index": {
       "id": "routes/index",
       "parentId": "root",
@@ -28,5 +39,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-209367AB.js"
+  "url": "/build/manifest-74AD967B.js"
 }
