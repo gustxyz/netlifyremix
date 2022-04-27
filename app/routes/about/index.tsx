@@ -6,7 +6,7 @@ export function links() {
     return [
       {
         rel: "stylesheet",
-        href: AboutStyles,
+        href: "https://d33wubrfki0l68.cloudfront.net/bundles/bf62e7a7871d940c3c6df187eae9258636299ed4.css",
       },
     ];
   }
