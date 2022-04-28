@@ -1,5 +1,7 @@
-import type { LoaderFunction, MetaFunction } from "remix";
+import { LoaderFunction, MetaFunction, redirect } from "remix";
 import Contact from '../../components/Contact'
+
+
 
 export function links() {
     return [

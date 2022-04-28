@@ -1,5 +1,5 @@
 {
-  "version": "46bd8a60",
+  "version": "3ed622e1",
   "entry": {
     "module": "/build/entry.client-2KUFFHLY.js",
     "imports": [
@@ -12,7 +12,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-3JVQCX7R.js",
+      "module": "/build/root-ICGESXHC.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -23,7 +23,7 @@
       "parentId": "root",
       "path": "about",
       "index": true,
-      "module": "/build/routes/about/index-SLW6EMCO.js",
+      "module": "/build/routes/about/index-INEGK6JH.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -34,7 +34,7 @@
       "parentId": "root",
       "path": "contact",
       "index": true,
-      "module": "/build/routes/contact/index-R3C4VUJX.js",
+      "module": "/build/routes/contact/index-BFGAVCKH.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -44,7 +44,7 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-3PMBD2VB.js",
+      "module": "/build/routes/index-63Q2LULY.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -55,12 +55,12 @@
       "parentId": "root",
       "path": "services",
       "index": true,
-      "module": "/build/routes/services/index-E7MM7KVQ.js",
+      "module": "/build/routes/services/index-3I5MTVM2.js",
       "hasAction": false,
       "hasLoader": true,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-46BD8A60.js"
+  "url": "/build/manifest-3ED622E1.js"
 }

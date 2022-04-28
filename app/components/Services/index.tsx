@@ -99,7 +99,7 @@ const Services = () => {
         <div className="section-content">
                     <h2>Lifetime Updates For Your Website</h2>
                     <p>Google changes its search alogrithm standards every so often, changing what is important to rank.  And web 
-                       accessibility guidelines for users with screen readers get updated as well.  So we also include <span>lifetime updates </span> 
+                       accessibility guidelines for users with screen readers get updated as well.  So we also include <span>lifetime updates</span> 
                        to your website to make sure it never goes out of date and is always changing with the times.
                     </p>
                  

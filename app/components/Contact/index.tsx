@@ -37,7 +37,7 @@ const Contact = () => {
         </div>
        
             <div className="form-wrapper">
-                <form data-netlify="true" id='contact' method='post' name='form'><input type='hidden' name='form-name' value='form'/>
+                <form action="https://submit-form.com/Nutg910E"  id='contact' name='CONTACT FORM'><input type='hidden' name='form-name' value='form'/>
                     <h3 className="contact-topper"><span>DROP</span> US A LINE</h3>
                     
                         <input aria-label="name" name="name" placeholder="Name" type="text" tabIndex={1} required />
