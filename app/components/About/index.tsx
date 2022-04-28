@@ -125,7 +125,7 @@ const About = () => {
                 </div>
             </div>
             <div className="form-wrapper">
-                <form data-netlify-recaptcha='true' id='contact' method='post' name='Contact Form'><input type='hidden' name='form-name' value='Contact Form' />
+                <form data-netlify="true"id='contact' method='post' name='Contact Form'><input type='hidden' name='form-name' value='Contact Form' />
                     <h3 className="contact-topper"><span>DROP</span> US A LINE</h3>
                     
                         <input aria-label="name" name="name" placeholder="Your Name" type="text" tabIndex={1} required />
