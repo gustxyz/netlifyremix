@@ -39,7 +39,7 @@ return (
     <header>
         <div className="mobile-wrapper">
             <div className="mobile-nav container mobile-nav-container">
-                <img style={{position: 'relative', marginRight:'auto !important'}} id="mobile-logo" src={Logo} alt="mobile_company_logo" height="60" /> 
+                <img style={{pointerEvents: 'none', position: 'relative', marginRight:'auto !important'}} id="mobile-logo" src={Logo} alt="mobile_company_logo" height="60" /> 
                 <Link style={{ position: 'absolute', left: 0, top: 0,  width: '100%', height: '100%',transform: 'translate(-50%)' }} to={'/'}/>
 
                 <button aria-label="open the menu" id="menu-button" className={`hamburger hamburger--spring ${isMobile && navActive ? 'is-active' : ''}`} onClick={onClickHandler} type="button">
@@ -55,7 +55,7 @@ return (
             {isMobile ?
             <div style={navActive  ? {width: '60%', position: 'fixed'} :  {width: 0}} className="navbar-menu">
                 <div id="side-menu" className="side-nav">
-                <img style={{position: 'relative', marginRight:'auto !important'}} src={Logo} alt="company logo" width="100px" />                
+                <img style={{pointerEvents: 'none', position: 'relative', marginRight:'auto !important'}} src={Logo} alt="company logo" width="100px" />                
                 <Link style={{ position: 'absolute', left: 0, top: 0,  width: '100%', height: '100%',transform: 'translate(-50%)' }} to={'/'}/>
                     <ul  id="on-top" className={`navbar-links ${!navActive ? 'clicked' : ''}`}>
                         {navLinks.map((navLink)=>{
@@ -70,7 +70,7 @@ return (
            : 
            <div style={ {width: 0}} className="navbar-menu">
                 <div id="side-menu" className="side-nav">
-                <img style={{position: 'relative', marginRight:'auto !important'}} src={Logo} alt="company logo" width="100px" />
+                <img style={{pointerEvents: 'none', position: 'relative', marginRight:'auto !important'}} src={Logo} alt="company logo" width="100px" />
                 <Link style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%',transform: 'translate(-50%)' }} to={'/'}/>
                     <ul  id="on-top" className={`navbar-links ${!navActive ? 'clicked' : ''}`}>
                         {navLinks.map((navLink)=>{

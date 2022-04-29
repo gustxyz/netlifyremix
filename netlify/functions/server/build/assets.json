@@ -1,5 +1,5 @@
 {
-  "version": "3a028595",
+  "version": "fc3c5589",
   "entry": {
     "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-WFUNTQHT.js",
+      "module": "/build/root-BXC6S5EW.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -61,5 +61,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-3A028595.js"
+  "url": "/build/manifest-FC3C5589.js"
 }
