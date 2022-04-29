@@ -1,5 +1,5 @@
 {
-  "version": "fc3c5589",
+  "version": "ad0112c3",
   "entry": {
     "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-BXC6S5EW.js",
+      "module": "/build/root-BYSV7AFW.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -43,7 +43,7 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-OE35ECMZ.js",
+      "module": "/build/routes/index-ISGODNBG.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -61,5 +61,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-FC3C5589.js"
+  "url": "/build/manifest-AD0112C3.js"
 }

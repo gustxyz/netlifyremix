@@ -64,16 +64,6 @@ const BaseTemplate: React.FC = ({ children }) => (
     <body>
       {children}
       <ScrollRestoration />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-226926212-1">
-    </script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-226926212-1');
-    </script>
-
       <Scripts />
       {process.env.NODE_ENV === "development" && <LiveReload />}
     </body>

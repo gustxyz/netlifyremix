@@ -19,10 +19,10 @@ const Main = () => {
         <div className="container">
             <h1>Small Business Web Design + Development</h1>
             <h2>No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</h2>
-            <Link to={'/contact'}>
-             <button className="button-solid quote-button" type="button">
-                GET IN TOUCH!
-             </button>
+            <Link to={'/contact'}>             
+                <button className="button-solid quote-button" type="button">
+                    GET IN TOUCH!
+                </button>
             </Link>
             <img className="mock-up desktop-display" src="https://d33wubrfki0l68.cloudfront.net/81ff3b9ad31c44ae1e5d3af2f0d6364d60edee85/2f15f/images/mock-up-replace.png" alt="mockup of a website on computer desktop and phone"/>
             <img className="mock-up mobile-display" src="https://d33wubrfki0l68.cloudfront.net/9e5482183c08d98fc43a56fa1c9a7f1a0f61a207/a3b7c/images/mock-up-mobile-repace.png" alt="a mockup of a website on computer desktop and phone"/>
