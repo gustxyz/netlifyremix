@@ -1,5 +1,5 @@
 {
-  "version": "f244a565",
+  "version": "3a028595",
   "entry": {
     "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
@@ -11,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-WBNXOA2X.js",
+      "module": "/build/root-WFUNTQHT.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -61,5 +61,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-F244A565.js"
+  "url": "/build/manifest-3A028595.js"
 }
