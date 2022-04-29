@@ -1,5 +1,5 @@
 {
-  "version": "3ed622e1",
+  "version": "8eb8222e",
   "entry": {
     "module": "/build/entry.client-2KUFFHLY.js",
     "imports": [
@@ -12,7 +12,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-ICGESXHC.js",
+      "module": "/build/root-VEHGWRUW.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -62,5 +62,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-3ED622E1.js"
+  "url": "/build/manifest-8EB8222E.js"
 }
