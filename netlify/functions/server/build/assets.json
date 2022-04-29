@@ -1,5 +1,5 @@
 {
-  "version": "ad0112c3",
+  "version": "c687577a",
   "entry": {
     "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
@@ -43,7 +43,7 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-ISGODNBG.js",
+      "module": "/build/routes/index-SHL4OZYF.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -61,5 +61,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-AD0112C3.js"
+  "url": "/build/manifest-C687577A.js"
 }

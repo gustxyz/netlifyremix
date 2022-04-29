@@ -19,8 +19,8 @@ const Main = () => {
         <div className="container">
             <h1>Small Business Web Design + Development</h1>
             <h2>No page builders or WordPress - We offer 100% hand-coded websites with superior results starting at $150/mo.</h2>
-            <Link to={'/contact'}>             
-                <button className="button-solid quote-button" type="button">
+            <Link style={{textDecoration: 'none'}} to={'/contact'}>             
+                <button  className="button-solid quote-button" type="button">
                     GET IN TOUCH!
                 </button>
             </Link>
