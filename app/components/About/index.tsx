@@ -67,9 +67,12 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Link style={{textDecoration: 'none'}} to={'/services'}>
+
         <button className="button-solid about-button"  type="button">
             OUR SERVICES
         </button>
+        </Link>
     </section>
 
 

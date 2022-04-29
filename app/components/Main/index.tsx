@@ -132,9 +132,12 @@ const Main = () => {
                     <li><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg" alt="" /> 1 Post Per Month</li>
                     <li><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg" alt="" /> $150 Per Extra Post</li>
                 </ul>
+                <Link to={'/contact'}>
+
                 <button className="button-solid services-button" type="button">
                     CONTACT US
                 </button>
+                </Link>
             </div>
             <div className="price-box">
                 <h2>Standard</h2>
@@ -146,9 +149,11 @@ const Main = () => {
                     <li><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg" alt=""/> 24/7 Customer Service</li>
                     <li><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg" alt=""/> Lifetime Updates</li>
                 </ul>
+                <Link to={'/contact'}>
                 <button className="button-solid"type="button">
                     CONTACT US
                 </button>
+                </Link>
             </div>
             <div className="price-box">
                 <h2>Logos & Graphic Design</h2>
@@ -160,9 +165,11 @@ const Main = () => {
                     <li><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg" alt=""/> Ready to use</li>
                     <li><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/608a680adbcdbdfc5b0db51ce6104719aaf2b24b/7080e/images/tick.svg" alt=""/> FREE w/ Subscription</li>
                 </ul>
+                <Link to={'/contact'}>
                 <button className="button-solid services-button"  type="button">
                     CONTACT US
                 </button>
+                </Link>
             </div>
         </div>
     </section>

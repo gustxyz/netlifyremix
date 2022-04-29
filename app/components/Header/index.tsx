@@ -53,7 +53,8 @@ return (
             {isMobile ?
             <div style={navActive  ? {width: '60%', position: 'fixed'} :  {width: 0}} className="navbar-menu">
                 <div id="side-menu" className="side-nav">
-                    <img src={Logo} alt="company logo" width="100px" />
+                <img style={{position: 'relative', marginRight:'auto !important'}} src={Logo} alt="company logo" width="100px" / >                
+                <Link style={{ position: 'absolute', left: 0, top: 0,  width: '100%', height: '100%',transform: 'translate(-50%)' }} to={'/'}/>
                     <ul  id="on-top" className={`navbar-links ${!navActive ? 'clicked' : ''}`}>
                         {navLinks.map((navLink)=>{
                             return <li onClick={onClickHandler} style={navActive  ? {opacity: 1, visibility: 'visible'} :  {opacity: 0, visibility: 'hidden'}} key={navLink.name + navLink.route} className="nav-li"><Link style={navActive || !isMobile   ? {opacity: 1, visibility: 'visible'} :  {opacity: 0, visibility: 'hidden'}} className={location.pathname === navLink.route ? 'active-menu' : ''}  
@@ -67,7 +68,8 @@ return (
            : 
            <div style={ {width: 0}} className="navbar-menu">
                 <div id="side-menu" className="side-nav">
-                    <img src={Logo} alt="company logo" width="100px" />
+                <img style={{position: 'relative', marginRight:'auto !important'}} src={Logo} alt="company logo" width="100px" />
+                <Link style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%',transform: 'translate(-50%)' }} to={'/'}/>
                     <ul  id="on-top" className={`navbar-links ${!navActive ? 'clicked' : ''}`}>
                         {navLinks.map((navLink)=>{
                             return <li onClick={onClickHandler}  key={navLink.name + navLink.route} className="nav-li"><Link className={location.pathname === navLink.route ? 'active-menu' : ''}  

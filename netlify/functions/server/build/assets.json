@@ -1,10 +1,9 @@
 {
-  "version": "47eb7c2e",
+  "version": "f244a565",
   "entry": {
-    "module": "/build/entry.client-2KUFFHLY.js",
+    "module": "/build/entry.client-TF56WTNC.js",
     "imports": [
-      "/build/_shared/chunk-5MYFW3RJ.js",
-      "/build/_shared/chunk-KADKBDIS.js",
+      "/build/_shared/chunk-NTWTLK5P.js",
       "/build/_shared/chunk-E7VMOUYL.js"
     ]
   },
@@ -12,7 +11,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-MKBYBXAT.js",
+      "module": "/build/root-WBNXOA2X.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -23,7 +22,7 @@
       "parentId": "root",
       "path": "about",
       "index": true,
-      "module": "/build/routes/about/index-INEGK6JH.js",
+      "module": "/build/routes/about/index-E353J2YE.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -44,7 +43,7 @@
       "id": "routes/index",
       "parentId": "root",
       "index": true,
-      "module": "/build/routes/index-63Q2LULY.js",
+      "module": "/build/routes/index-OE35ECMZ.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -55,12 +54,12 @@
       "parentId": "root",
       "path": "services",
       "index": true,
-      "module": "/build/routes/services/index-3I5MTVM2.js",
+      "module": "/build/routes/services/index-244YOLPK.js",
       "hasAction": false,
       "hasLoader": true,
       "hasCatchBoundary": false,
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-47EB7C2E.js"
+  "url": "/build/manifest-F244A565.js"
 }
