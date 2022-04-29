@@ -1,5 +1,5 @@
 {
-  "version": "22331da0",
+  "version": "47eb7c2e",
   "entry": {
     "module": "/build/entry.client-2KUFFHLY.js",
     "imports": [
@@ -12,7 +12,7 @@
     "root": {
       "id": "root",
       "path": "",
-      "module": "/build/root-D4TXUVNR.js",
+      "module": "/build/root-MKBYBXAT.js",
       "hasAction": false,
       "hasLoader": false,
       "hasCatchBoundary": false,
@@ -62,5 +62,5 @@
       "hasErrorBoundary": false
     }
   },
-  "url": "/build/manifest-22331DA0.js"
+  "url": "/build/manifest-47EB7C2E.js"
 }
