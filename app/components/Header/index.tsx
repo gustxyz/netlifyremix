@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { Link, useLocation } from "remix";
 import useMedia from "../../helpers/useMedia";
 
@@ -10,10 +10,10 @@ import Logo from "../../assets/images/logo.png";
  */
 
 
-const Header = () => {
+const Header = ( props: { navActive: any; setNavActive: any; }) => {
+    const {navActive, setNavActive} = props;
     const location = useLocation();     
     const navLinks = [{ name: 'Home', route: '/'},{ name: 'About', route: '/about'},{ name: 'Services', route: '/services'},{ name: 'Contact', route: '/contact'}]
-    const [navActive,setNavActive] = useState(false);
 
     let isMobile: boolean | null = null;
     if(typeof window !== 'undefined') {
@@ -28,6 +28,8 @@ const Header = () => {
           );
     
     }
+
+
  
 
 const onClickHandler = ()=> {
@@ -48,12 +50,12 @@ return (
 
 
         <nav>
-            <div style={navActive || !isMobile   ? {width: '60%',     position: 'fixed'} :  {width: 0, position: 'unset'}} className="navbar-menu">
+            <div style={navActive || !isMobile   ? {width: '60%', position: 'fixed'} :  {width: 0}} className="navbar-menu">
                 <div id="side-menu" className="side-nav">
                     <img src={Logo} alt="company logo" width="100px" />
                     <ul  id="on-top" className={`navbar-links ${!navActive ? 'clicked' : ''}`}>
                         {navLinks.map((navLink)=>{
-                            return <li style={navActive || !isMobile ? {opacity: 1, visibility: 'visible'} :  {opacity: 0, visibility: 'hidden'}} key={navLink.name + navLink.route} className="nav-li"><Link style={navActive || !isMobile   ? {opacity: 1, visibility: 'visible'} :  {opacity: 0, visibility: 'hidden'}} className={location.pathname === navLink.route ? 'active-menu' : ''}  
+                            return <li onClick={onClickHandler} style={navActive || !isMobile ? {opacity: 1, visibility: 'visible'} :  {opacity: 0, visibility: 'hidden'}} key={navLink.name + navLink.route} className="nav-li"><Link style={navActive || !isMobile   ? {opacity: 1, visibility: 'visible'} :  {opacity: 0, visibility: 'hidden'}} className={location.pathname === navLink.route ? 'active-menu' : ''}  
                             to={navLink.route}>{navLink.name}</Link></li>
 
 })}

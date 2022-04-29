@@ -17,6 +17,7 @@ import {
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import useMedia from "./helpers/useMedia";
 
 
 
@@ -45,13 +46,32 @@ const BaseTemplate: React.FC = ({ children }) => (
 );
 
 export default function App() {
+  const [navActive, setNavActive] = useState(false);
 
+  const onClickHandler = ()=> {
+    setNavActive(!navActive);
+}
+let isMobile: boolean | null = null;
+if(typeof window !== 'undefined') {
+     isMobile = useMedia<boolean>(
+        // Media queries
+        ["(min-width: 1250px)", "(max-width: 1249px)"],
+        // Column counts (relates to above media queries by array index)
+        [false, true],
 
+        false
+   
+      );
+
+}
   return (
     <BaseTemplate>
-      <Header />
+      <Header navActive={navActive} setNavActive={setNavActive} />
+      <div onClick={navActive ? onClickHandler : undefined}>
       <Outlet />
       <Footer />
+      </div>
+   
     </BaseTemplate>
   );
 }

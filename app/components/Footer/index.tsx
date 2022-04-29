@@ -9,6 +9,8 @@ import Logo from "../../assets/images/logo.png";
  * @returns A localized <Link>
  */
 export const Footer = () => {
+  const navLinks = [{ name: 'Home', route: '/'},{ name: 'About', route: '/about'},{ name: 'Services', route: '/services'},{ name: 'Contact', route: '/contact'}]
+
   return (
     <footer>
       <img aria-hidden="true" className="footer-img light-mode-svg" src="https://d33wubrfki0l68.cloudfront.net/c272e13f11fec5e8a82b6342bc194b3eb74b5b72/7cf10/images/footer-swoosh.svg" alt=""  />
@@ -26,11 +28,11 @@ export const Footer = () => {
               <div className="footer-item"> 
                   <h2>Navigation</h2>
                   <div aria-hidden="true" className="footer-line"></div>
-                  <a className='link' href='/'>Home</a>
-                  <a className='link' href='/html/about'>About</a>
-                  <a className='link-long' href='/html/services'>Services</a>
-                  <a className='link-long' href='/#portfolio'>Portfolio</a>
-                  <a className='link-long' href='/html/contact'>Contact</a>
+                  {navLinks.map((navLink)=>{
+                            return  <Link className='link'  
+                            to={navLink.route}>{navLink.name}</Link>
+
+                  })}
               </div>
               <div className="footer-item">
                   <h2>Services</h2>
