@@ -48,7 +48,7 @@ return (
 
 
         <nav>
-            <div style={navActive || !isMobile   ? {width: '60%'} :  {width: 0 }} className="navbar-menu">
+            <div style={navActive || !isMobile   ? {width: '60%',     position: 'fixed'} :  {width: 0, position: 'unset'}} className="navbar-menu">
                 <div id="side-menu" className="side-nav">
                     <img src={Logo} alt="company logo" width="100px" />
                     <ul  id="on-top" className={`navbar-links ${!navActive ? 'clicked' : ''}`}>
