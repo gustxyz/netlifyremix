@@ -29,7 +29,7 @@ export const Footer = () => {
                   <h2>Navigation</h2>
                   <div aria-hidden="true" className="footer-line"></div>
                   {navLinks.map((navLink)=>{
-                            return  <Link className='link'  
+                            return  <Link key={navLink.name} className='link'  
                             to={navLink.route}>{navLink.name}</Link>
 
                   })}
