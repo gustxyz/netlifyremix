@@ -46,7 +46,7 @@ export const Footer = () => {
           </div>
       </div>
       <div className="branding">
-          <p>Copyright &copy; 2021 | Alki Digital Web Services | All Rights Reserved</p>
+          <p>Copyright &copy; 2022 | Alki Digital Web Services | All Rights Reserved</p>
       </div>
     </footer>
   );
